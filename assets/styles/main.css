@@ -1,0 +1,243 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 30px 12px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+body {
+    background: linear-gradient(135deg, rgb(200, 70, 70), rgb(89, 89, 176));
+    padding: 50px;
+    min-height: 100vh;
+}
+
+.logo {
+    font-weight: 700;
+    color: #e9db6e;
+    font-size: 28px;
+    letter-spacing: 10px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 70px;
+    height: auto;
+}
+
+.navbar {
+    background: rgba(225, 225, 225, 0.1);
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    box-shadow: 11px 6px 14px 0px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 35px;
+    color: blue;
+}
+
+.nav-links a {
+    color: rgb(245, 204, 240);
+    position: relative;
+    font-size: 16px;
+    transition: .3s;
+}
+.nav-links a:hover {
+ 
+    color: #184c9a;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: 5px double #594f07;
+    border-radius: 70%;
+    cursor: pointer;
+    color: #e96e6e;
+    font-size: 12px;
+    font-weight: 600;
+    transition: .2s;
+}
+
+.btn:hover {
+    background-color: #e96e6e;
+    color: #594f07;
+}
+
+.drop {
+    padding: 8px;
+    font-size: 14px;
+    border: rgb(202, 80, 247);
+    background: rgb(81, 1, 107);
+    color: rgb(255, 240, 250);
+    cursor: pointer;
+}
+
+.drop:hover {
+    color: rgb(246, 75, 41);
+    background: rgb(208, 209, 204);
+}
+
+h1 {
+    margin: 40px;
+    color: rgb(128, 2, 132);
+}
+
+h1::before {
+    content: "🧰";
+}
+
+h1::after {
+    content: "👷🏻";
+}
+
+.container {
+    width: 80%;
+      margin: auto;
+    max-width: 1200px;
+}
+
+.topbar {
+    display: flex;
+    font-size: 16px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+    background: rgba(233, 7, 7, 0.1);
+    box-shadow: 11px 6px 14px 0px;
+
+}
+
+.topbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+}
+
+.topbar-left,
+.topbar-right {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.topbar a {
+    color: rgb(247, 213, 241);
+    transition: .2s;
+}
+
+.topbar a:hover {
+    color: rgb(54, 86, 204);
+}
+
+.container-cart {
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    flex-wrap: wrap;
+}
+
+.cart button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, rgb(200, 70, 70), rgb(89, 89, 176));
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cart button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(188, 113, 113, 0.2);
+}
+
+.cart form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.cart input {
+    padding: 12px;
+    border: 1px solid #871212;
+    border-radius: 8px;
+    outline: none;
+    font-size: 14px;
+}
+
+.cart {
+    background: rgb(230, 209, 209);
+    padding: 30px;
+    border-radius: 15px;
+    width: 350px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    margin-top: 50px;
+}
+
+.social {
+    display: flex;
+    gap: 15px;
+    text-align: center;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.social a {
+    border: 4px solid #61077c;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    justify-content: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.form1 {
+    margin-top: 10px;
+}
+
+.login-with {
+    display: block;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.footer {
+    text-align: center;
+    margin: 15px 0;
+}
