@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/images/1ed.png" width="90" alt="Karts Logo">
+  <img src="./assets/images/1ed.png" width="500" alt="Karts Logo">
   <h1>Karts | Product Cards</h1>
   <p> Built with HTML & CSS</p>
   
